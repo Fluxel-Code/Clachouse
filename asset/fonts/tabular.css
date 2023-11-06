@@ -1,0 +1,165 @@
+/**
+ * @license
+ *
+ * Font Family: Tabular
+ * Designed by: Jérémie Hornus, Julie Soudanne
+ * URL: https://www.fontshare.com/fonts/tabular
+ * © 2023 Indian Type Foundry
+ *
+ * Font Styles:
+ * Tabular Variable(Variable font)
+ * Tabular Variable Italic(Variable font)
+ * Tabular Light
+ * Tabular Light Italic
+ * Tabular Regular
+ * Tabular Italic
+ * Tabular Medium
+ * Tabular Medium Italic
+ * Tabular Semibold
+ * Tabular Semibold Italic
+ * Tabular Bold
+ * Tabular Bold Italic
+ *
+*/
+
+/**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 700.0;
+*
+* available axes:
+
+* 'wght' (range from 300.0 to 700.0)
+
+*/
+
+@font-face {
+  font-family: "Tabular-Variable";
+  src: url("../fonts/Tabular-Variable.woff2") format("woff2"),
+    url("../fonts/Tabular-Variable.woff") format("woff"),
+    url("../fonts/Tabular-Variable.ttf") format("truetype");
+  font-weight: 300 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+/**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 700.0;
+*
+* available axes:
+
+* 'wght' (range from 300.0 to 700.0)
+
+*/
+
+@font-face {
+  font-family: "Tabular-VariableItalic";
+  src: url("./Tabular/Tabular-VariableItalic.woff2") format("woff2"),
+    url("./Tabular/Tabular-VariableItalic.woff") format("woff"),
+    url("./Tabular/Tabular-VariableItalic.ttf") format("truetype");
+  font-weight: 300 700;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Tabular-Light";
+  src: url("./Tabular/Tabular-Light.woff2") format("woff2"),
+    url("./Tabular/Tabular-Light.woff") format("woff"),
+    url("./Tabular/Tabular-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Tabular-LightItalic";
+  src: url("./Tabular/Tabular-LightItalic.woff2") format("woff2"),
+    url("./Tabular/Tabular-LightItalic.woff") format("woff"),
+    url("./Tabular/Tabular-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Tabular-Regular";
+  src: url("./Tabular/Tabular-Regular.woff2") format("woff2"),
+    url("./Tabular/Tabular-LightItalic.woff") format("woff"),
+    url("./Tabular/Tabular-LightItalic.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Tabular-Italic";
+  src: url("./Tabular/Tabular-Italic.woff2") format("woff2"),
+    url("./Tabular/Tabular-Italic.woff") format("woff"),
+    url("./Tabular/Tabular-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Tabular-Medium";
+  src: url("./Tabular/Tabular-Medium.woff2") format("woff2"),
+    url("./Tabular/Tabular-Medium.woff") format("woff"),
+    url("./Tabular/Tabular-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Tabular-MediumItalic";
+  src: url("./Tabular/Tabular-MediumItalic.woff2") format("woff2"),
+    url("./Tabular/Tabular-MediumItalic.woff") format("woff"),
+    url("./Tabular/Tabular-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Tabular-Semibold";
+  src: url("./Tabular/Tabular-Semibold.woff2") format("woff2"),
+    url("./Tabular/Tabular-Semibold.woff") format("woff"),
+    url("./Tabular/Tabular-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Tabular-SemiboldItalic";
+  src: url("./Tabular/Tabular-SemiboldItalic.woff2") format("woff2"),
+    url("./Tabular/Tabular-SemiboldItalic.woff") format("woff"),
+    url("./Tabular/Tabular-SemiboldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Tabular-Bold";
+  src: url("./Tabular/Tabular-Bold.woff2") format("woff2"),
+    url("./Tabular/Tabular-Bold.woff") format("woff"),
+    url("./Tabular/Tabular-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Tabular-BoldItalic";
+  src: url("./Tabular/Tabular-BoldItalic.woff2") format("woff2"),
+    url("./Tabular/Tabular-BoldItalic.woff") format("woff"),
+    url("./Tabular/Tabular-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+}
