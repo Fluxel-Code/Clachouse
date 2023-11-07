@@ -1,0 +1,11 @@
+section#BlocHomeSectionPuzzle {
+  padding-top: 37px;
+  padding-bottom: 100.5px;
+}
+section#BlocHomeSectionPuzzle .container {
+  max-width: 1500px;
+  padding: 0 16px;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: black;
+}

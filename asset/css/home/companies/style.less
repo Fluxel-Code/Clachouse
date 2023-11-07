@@ -1,0 +1,73 @@
+section#BlocHomeEmpresasColaboradoras {
+  padding-top: 100.5px;
+  padding-bottom: 41.78px;
+  background-color: #eeeeee;
+  .container {
+    max-width: 1245px;
+    padding: 0 44px;
+    margin: 0 auto;
+
+    .box-flex {
+      justify-content: center;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px 65px;
+      .item {
+        text-align: center;
+        &:nth-child(1) {
+          width: 100%;
+        }
+        &:nth-child(2) {
+          width: 38%;
+        }
+        &:nth-child(3) {
+          width: 38%;
+        }
+        &:nth-child(4) {
+          width: 100%;
+        }
+        &:nth-child(5) {
+          width: 38%;
+        }
+        &:nth-child(6) {
+          width: 38%;
+        }
+        &:nth-child(7) {
+          width: 100%;
+        }
+
+        @media screen and (max-width: 358px) {
+          & {
+            width: 100% !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 576px) {
+  section#BlocHomeEmpresasColaboradoras {
+    padding-top: 71px;
+    padding-bottom: 90px;
+    .container {
+      .title-section {
+        font-family: "Tabular-Bold";
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%; /* 100% */
+        color: black;
+        text-align: center;
+        max-width: 630px;
+        margin: 0 auto 78px;
+      }
+      .box-flex {
+        gap: 109px 75px;
+        .item {
+          width: 20% !important;
+        }
+      }
+    }
+  }
+}
