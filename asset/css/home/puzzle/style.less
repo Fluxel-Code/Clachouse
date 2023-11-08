@@ -1,4 +1,6 @@
-// Estp se hara de desktop a movil
+/*
+*Desktop
+*/
 section#BlocHomeSectionPuzzle {
   padding-top: 85px; //Mitad de la versión desktop
   padding-bottom: 73.5px; //Mitad de la versión desktop
@@ -107,7 +109,8 @@ section#BlocHomeSectionPuzzle {
           border-right: 0;
         }
 
-        .title-section-puzzle {
+        .title-section-puzzle,
+        .title-section-puzzle-movil {
           max-width: 396px;
           color: #fff;
           font-family: "Tabular-Bold";
@@ -116,6 +119,10 @@ section#BlocHomeSectionPuzzle {
           font-weight: 700;
           line-height: 100%; /* 100% */
           margin: 0 0 27px -60px;
+        }
+
+        .title-section-puzzle-movil {
+          display: none;
         }
 
         .paragraph {
@@ -151,6 +158,9 @@ section#BlocHomeSectionPuzzle {
   }
 }
 
+/*
+*Movil
+*/
 @media screen and (max-width: 1200px) {
   section#BlocHomeSectionPuzzle {
     padding-top: 37px; //Mitad de la versión movil
@@ -206,7 +216,11 @@ section#BlocHomeSectionPuzzle {
           }
 
           .title-section-puzzle {
-            max-width: 294px;
+            display: none;
+          }
+          .title-section-puzzle-movil {
+            display: block;
+            max-width: 294px; //185px
             font-size: 33.798px;
             margin: 0 0 16px;
           }
