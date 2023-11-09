@@ -550,31 +550,7 @@
                 initialSlide: 1,
                 centeredSlides: true,
                 loop: true,
-                // longSwipes: false,
-                // loopAdditionalSlides: 7,
-                // loopPreventsSlide:true,
-                // longSwipesRatio: 0,
-                // longSwipesMs: 300,
-                // // threshold: 0,
-                // slideToClickedSlide:true,
-                // grabCursor: true,
-                // autoplay: {
-                //     delay: 5000,
-                // },
-
-                // formatFractionCurrent: function (number) {
-                //     if (number < 10) {
-                //         number = '0' + number;
-                //     }
-                //     return number;
-                // },
-  
-	            // renderFraction: function (currentClass, totalClass) {
-                //     return '<span class="' + currentClass + '"></span>' +
-                //     ' of' +
-                //     '<span class="' + totalClass + '"></span>';
-                // },
-
+                rtl: false,
                 breakpoints: {
                     // when window width is >= 320px
                     767: {
@@ -583,7 +559,12 @@
                         initialSlide: 0,
                         centeredSlides: true,
                         loop: true
-                    }
+                    },
+
+                    1800: {
+                        allowTouchMove: false,
+                        centeredSlides: true,
+                    },
                 }
 
             })
