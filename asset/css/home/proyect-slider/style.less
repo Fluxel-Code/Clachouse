@@ -2,14 +2,8 @@ section#BlocHomeSliderProduct {
   padding-top: 48px; //Mitad de la versión movil
   padding-bottom: 37px; //Mitad de la versión movil
 
-  .container {
-    max-width: 1600px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    padding: 0;
-    // este no tiene padding;
+  .contenedor {
+    padding: 0; // este no tiene padding;
     .title-section {
       color: var(--Negro, #000);
       text-align: center;
@@ -18,7 +12,7 @@ section#BlocHomeSliderProduct {
       font-style: normal;
       font-weight: 700;
       line-height: 100%; /* 100% */
-      margin: 0;
+      margin: 0 0 35px;
     }
 
     //* slider
@@ -29,25 +23,25 @@ section#BlocHomeSliderProduct {
         display: flex;
         align-items: center;
         .swiper-slide {
-          width: 170px; //43.6%
+          width: 170.329px; //43.6%
           height: 253px;
           overflow: hidden;
           position: relative;
           border-radius: 4.683px;
           transition: 0.8s;
-          //   filter: drop-shadow(
-          //     0px 2.341296911239624px 14.633105278015137px rgba(0, 0, 0, 0.16)
-          //   );
+          aspect-ratio: 0.673;
+
           //   *Componentes imagen -> flecha -> y textos
           .box-img {
-            aspect-ratio: 0.67;
             width: 100%;
             height: 100%;
             position: relative;
             & > img {
+              filter: drop-shadow(
+                0px 2.341296911239624px 14.633105278015137px rgba(0, 0, 0, 0.16)
+              );
               height: 100%;
               object-fit: cover;
-              border-radius: 4.683px;
               object-position: center;
             }
 
@@ -66,7 +60,7 @@ section#BlocHomeSliderProduct {
                 #fff 190%
               ); //este es el bg, pero no se ve igual  180deg,#8e8e8e 0%, #fff 100%
               opacity: 0.1;
-              filter: drop-shadow(0px 4px 25px rgba(0, 0, 0, 0.16));
+              // filter: drop-shadow(0px 4px 25px rgba(0, 0, 0, 0.16));
             }
           }
 
@@ -77,17 +71,19 @@ section#BlocHomeSliderProduct {
 
             // flecha que aparece
             .hover-arrow {
+              transition: 0.8s ease;
               position: absolute;
               bottom: 0;
-              width: 0;
               opacity: 0;
-              transition: 0.22s ease all;
+              transform: scaleX(0);
+              transform-origin: left;
               left: -5px;
-              visibility: hidden;
             }
 
+            // flecha que desparece
             .arrow-opacity {
-              transition: 0.22s ease all;
+              transition: 0.1s;
+              opacity: 1;
             }
           }
 
@@ -116,13 +112,13 @@ section#BlocHomeSliderProduct {
               .arrow-opacity {
                 opacity: 0;
               }
+
               // flecha que aparece
               .hover-arrow {
-                transition: 0.22s ease all;
-                width: fit-content;
+                transform: scaleX(1);
                 opacity: 1;
+                width: fit-content;
                 left: 0;
-                visibility: visible;
               }
             }
           }
@@ -144,6 +140,7 @@ section#BlocHomeSliderProduct {
     }
 
     .box-button {
+      margin-top: 75.24px;
       text-align: center;
       .btn-red {
         padding: 8px 46px 9px 41px;
@@ -168,8 +165,7 @@ section#BlocHomeSliderProduct {
     padding-top: 59px; //Mitad de la versión pc
     padding-bottom: 85px; //Mitad de la versión pc
 
-    .container {
-      gap: 90px;
+    .contenedor {
       .title-section {
         font-size: 56px;
       }
@@ -181,7 +177,7 @@ section#BlocHomeSliderProduct {
           display: flex;
           align-items: center;
           .swiper-slide {
-            width: 290px; //desktop //290px
+            width: 291px; //desktop
             height: 432px; //desktop
 
             //  * flecha -> y textos
@@ -211,7 +207,7 @@ section#BlocHomeSliderProduct {
       }
 
       .box-button {
-        margin-top: -15px;
+        margin-top: 91px;
       }
     }
   }

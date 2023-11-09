@@ -21,7 +21,7 @@
     <body>
         <!-- Productos -->
         <section id="BlocHomeSliderProduct">
-            <div class="container">
+            <div class="contenedor">
                 <h2 class="title-section">Productos</h2>
                 <!-- *Carrousel -->
                 <div class="swiper" id="mySwiper_proyect">
@@ -226,11 +226,11 @@
                     <a href="#" class="SQ_btn btn btn-red">VER TODOS LOS PRODUCTOS</a>
                 </div>
             </div>
-            <!-- container -->
+            <!-- contenedor -->
         </section>
         <!-- Puzzle -->
         <section id="BlocHomeSectionPuzzle">
-            <div class="container">
+            <div class="contenedor">
                 <div class="square-info">
                     <div class="box-img">
                         <figure class="bg-img">
@@ -308,12 +308,12 @@
                 </div>
                 <!-- square-info -->
             </div>
-            <!-- .container -->
+            <!-- .contenedor -->
         </section>
         <!-- Empresas -->
         <section id="BlocHomeEmpresasColaboradoras">
-            <div class="container">
-                <h2 class="d-none d-sm-block title-section">
+            <div class="contenedor">
+                <h2 class="title-section">
                     Empresas
                     <br>
                     colaboradoras
@@ -538,25 +538,51 @@
                 </div>
                 <!-- .box-flex -->
             </div>
-            <!-- .container -->
+            <!-- .contenedor -->
         </section>
         <!-- Swiper JS -->
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <!-- Initialize Swiper -->
         <script>
-            var swiper = new Swiper("#BlocHomeSliderProduct .container #mySwiper_proyect", {
+            var swiper = new Swiper("#BlocHomeSliderProduct .contenedor #mySwiper_proyect", {
                 slidesPerView: "auto",
                 spaceBetween: 18,
-                initialSlide: 2,
+                initialSlide: 1,
                 centeredSlides: true,
                 loop: true,
+                // longSwipes: false,
+                // loopAdditionalSlides: 7,
+                // loopPreventsSlide:true,
+                // longSwipesRatio: 0,
+                // longSwipesMs: 300,
+                // // threshold: 0,
+                // slideToClickedSlide:true,
+                // grabCursor: true,
+                // autoplay: {
+                //     delay: 5000,
+                // },
+
+                // formatFractionCurrent: function (number) {
+                //     if (number < 10) {
+                //         number = '0' + number;
+                //     }
+                //     return number;
+                // },
+  
+	            // renderFraction: function (currentClass, totalClass) {
+                //     return '<span class="' + currentClass + '"></span>' +
+                //     ' of' +
+                //     '<span class="' + totalClass + '"></span>';
+                // },
 
                 breakpoints: {
                     // when window width is >= 320px
                     767: {
-                    spaceBetween: 30,
-                    initialSlide: 0,
-                    centeredSlides: true,
+                        slidesPerView: "auto",
+                        spaceBetween: 30,
+                        initialSlide: 0,
+                        centeredSlides: true,
+                        loop: true
                     }
                 }
 

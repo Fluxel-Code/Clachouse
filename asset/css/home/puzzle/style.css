@@ -3,25 +3,25 @@
 */
 section#BlocHomeSectionPuzzle {
   padding-top: 85px;
-  padding-bottom: 73.5px;
+  padding-bottom: 141px;
   background-image: linear-gradient(360deg, #eeeeee 45%, transparent 45%);
 }
-section#BlocHomeSectionPuzzle .container {
+section#BlocHomeSectionPuzzle .contenedor {
   max-width: 1600px;
   padding: 0 66px;
   margin: 0 auto;
 }
-section#BlocHomeSectionPuzzle .container .square-info {
+section#BlocHomeSectionPuzzle .contenedor .square-info {
   height: fit-content;
 }
-section#BlocHomeSectionPuzzle .container .square-info .box-img {
+section#BlocHomeSectionPuzzle .contenedor .square-info .box-img {
   width: 100%;
   max-height: 708px;
   display: flex;
   align-items: center;
   position: relative;
 }
-section#BlocHomeSectionPuzzle .container .square-info .box-img::before {
+section#BlocHomeSectionPuzzle .contenedor .square-info .box-img::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -33,25 +33,25 @@ section#BlocHomeSectionPuzzle .container .square-info .box-img::before {
   border-radius: 8px;
 }
 @media screen and (max-width: 1400px) {
-  section#BlocHomeSectionPuzzle .container .square-info .box-img::before {
+  section#BlocHomeSectionPuzzle .contenedor .square-info .box-img::before {
     width: 80%;
   }
 }
-section#BlocHomeSectionPuzzle .container .square-info .box-img .bg-img-movil {
+section#BlocHomeSectionPuzzle .contenedor .square-info .box-img .bg-img-movil {
   display: none;
 }
-section#BlocHomeSectionPuzzle .container .square-info .box-img .bg-img,
-section#BlocHomeSectionPuzzle .container .square-info .box-img .bg-img-movil {
+section#BlocHomeSectionPuzzle .contenedor .square-info .box-img .bg-img,
+section#BlocHomeSectionPuzzle .contenedor .square-info .box-img .bg-img-movil {
   background-color: #f5333f;
   overflow: hidden;
 }
-section#BlocHomeSectionPuzzle .container .square-info .box-img .bg-img > img,
-section#BlocHomeSectionPuzzle .container .square-info .box-img .bg-img-movil > img {
+section#BlocHomeSectionPuzzle .contenedor .square-info .box-img .bg-img > img,
+section#BlocHomeSectionPuzzle .contenedor .square-info .box-img .bg-img-movil > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-section#BlocHomeSectionPuzzle .container .square-info .box-img .bg-img {
+section#BlocHomeSectionPuzzle .contenedor .square-info .box-img .bg-img {
   z-index: 2;
   max-height: 647px;
   max-width: 896px;
@@ -62,14 +62,14 @@ section#BlocHomeSectionPuzzle .container .square-info .box-img .bg-img {
   width: 100%;
 }
 @media screen and (max-width: 1440px) {
-  section#BlocHomeSectionPuzzle .container .square-info .box-img .bg-img {
+  section#BlocHomeSectionPuzzle .contenedor .square-info .box-img .bg-img {
     width: 65%;
   }
 }
-section#BlocHomeSectionPuzzle .container .square-info .box-img .bg-img > img {
+section#BlocHomeSectionPuzzle .contenedor .square-info .box-img .bg-img > img {
   background: url(<path-to-image>), lightgray -214px -124.141px / 126.004% 128.084% no-repeat;
 }
-section#BlocHomeSectionPuzzle .container .square-info .box-img .bg-img .gradient {
+section#BlocHomeSectionPuzzle .contenedor .square-info .box-img .bg-img .gradient {
   position: absolute;
   right: 0;
   width: 100%;
@@ -78,10 +78,10 @@ section#BlocHomeSectionPuzzle .container .square-info .box-img .bg-img .gradient
   bottom: 0;
   pointer-events: none;
 }
-section#BlocHomeSectionPuzzle .container .square-info .box-img .bg-img .gradient > svg {
+section#BlocHomeSectionPuzzle .contenedor .square-info .box-img .bg-img .gradient > svg {
   fill: linear-gradient(266deg, rgba(0, 0, 0, 0.49) -19.47%, rgba(0, 0, 0, 0) 74.41%);
 }
-section#BlocHomeSectionPuzzle .container .square-info .content {
+section#BlocHomeSectionPuzzle .contenedor .square-info .content {
   width: 30%;
   height: fit-content;
   gap: 120px;
@@ -90,11 +90,11 @@ section#BlocHomeSectionPuzzle .container .square-info .content {
   padding-top: 50px;
 }
 @media screen and (max-width: 1400px) {
-  section#BlocHomeSectionPuzzle .container .square-info .content {
+  section#BlocHomeSectionPuzzle .contenedor .square-info .content {
     padding-top: 100px;
   }
 }
-section#BlocHomeSectionPuzzle .container .square-info .content .line {
+section#BlocHomeSectionPuzzle .contenedor .square-info .content .line {
   width: fit-content;
   margin-left: -160px;
   margin-bottom: 7px;
@@ -102,8 +102,8 @@ section#BlocHomeSectionPuzzle .container .square-info .content .line {
   border-left: 0;
   border-right: 0;
 }
-section#BlocHomeSectionPuzzle .container .square-info .content .title-section-puzzle,
-section#BlocHomeSectionPuzzle .container .square-info .content .title-section-puzzle-movil {
+section#BlocHomeSectionPuzzle .contenedor .square-info .content .title-section-puzzle,
+section#BlocHomeSectionPuzzle .contenedor .square-info .content .title-section-puzzle-movil {
   max-width: 396px;
   color: #fff;
   font-family: "Tabular-Bold";
@@ -114,10 +114,10 @@ section#BlocHomeSectionPuzzle .container .square-info .content .title-section-pu
   /* 100% */
   margin: 0 0 27px -60px;
 }
-section#BlocHomeSectionPuzzle .container .square-info .content .title-section-puzzle-movil {
+section#BlocHomeSectionPuzzle .contenedor .square-info .content .title-section-puzzle-movil {
   display: none;
 }
-section#BlocHomeSectionPuzzle .container .square-info .content .paragraph {
+section#BlocHomeSectionPuzzle .contenedor .square-info .content .paragraph {
   max-width: 389px;
   color: #fff;
   font-family: "Inter";
@@ -128,11 +128,11 @@ section#BlocHomeSectionPuzzle .container .square-info .content .paragraph {
   /* 135.714% */
   margin: 0 0 0 37px;
 }
-section#BlocHomeSectionPuzzle .container .square-info .content .box-button {
+section#BlocHomeSectionPuzzle .contenedor .square-info .content .box-button {
   margin-top: 30px;
   text-align: end;
 }
-section#BlocHomeSectionPuzzle .container .square-info .content .box-button .btn-red {
+section#BlocHomeSectionPuzzle .contenedor .square-info .content .box-button .btn-red {
   padding: 8px 46px 9px 41px;
   border-radius: 15.5px;
   background-color: #f5333f;
@@ -152,22 +152,22 @@ section#BlocHomeSectionPuzzle .container .square-info .content .box-button .btn-
 @media screen and (max-width: 1200px) {
   section#BlocHomeSectionPuzzle {
     padding-top: 37px;
-    padding-bottom: 100.5px;
+    padding-bottom: 20px;
     background-image: linear-gradient(360deg, #eeeeee 64%, transparent 45%);
   }
-  section#BlocHomeSectionPuzzle .container {
+  section#BlocHomeSectionPuzzle .contenedor {
     padding: 0 16px;
   }
-  section#BlocHomeSectionPuzzle .container .square-info {
+  section#BlocHomeSectionPuzzle .contenedor .square-info {
     max-width: 630px;
     margin: 0 auto;
   }
-  section#BlocHomeSectionPuzzle .container .square-info .box-img {
+  section#BlocHomeSectionPuzzle .contenedor .square-info .box-img {
     max-height: unset;
     flex-direction: column;
     z-index: 1;
   }
-  section#BlocHomeSectionPuzzle .container .square-info .box-img::before {
+  section#BlocHomeSectionPuzzle .contenedor .square-info .box-img::before {
     width: 86.3%;
     height: 50%;
     top: unset;
@@ -177,7 +177,7 @@ section#BlocHomeSectionPuzzle .container .square-info .content .box-button .btn-
     max-height: 420px;
     border-radius: 4.623px;
   }
-  section#BlocHomeSectionPuzzle .container .square-info .box-img .bg-img-movil {
+  section#BlocHomeSectionPuzzle .contenedor .square-info .box-img .bg-img-movil {
     max-height: 420px;
     width: 86.3%;
     border-radius: 4.623px;
@@ -187,36 +187,36 @@ section#BlocHomeSectionPuzzle .container .square-info .content .box-button .btn-
     margin-bottom: 0;
     background-color: transparent;
   }
-  section#BlocHomeSectionPuzzle .container .square-info .box-img .bg-img {
+  section#BlocHomeSectionPuzzle .contenedor .square-info .box-img .bg-img {
     display: none;
   }
-  section#BlocHomeSectionPuzzle .container .square-info .box-img .bg-img .gradient {
+  section#BlocHomeSectionPuzzle .contenedor .square-info .box-img .bg-img .gradient {
     display: none;
   }
-  section#BlocHomeSectionPuzzle .container .square-info .content {
+  section#BlocHomeSectionPuzzle .contenedor .square-info .content {
     width: 86.3%;
     padding: 39px 26px 42px 47px;
     right: 0;
     margin-left: auto;
     top: -95px;
   }
-  section#BlocHomeSectionPuzzle .container .square-info .content .line {
+  section#BlocHomeSectionPuzzle .contenedor .square-info .content .line {
     display: none;
   }
-  section#BlocHomeSectionPuzzle .container .square-info .content .title-section-puzzle {
+  section#BlocHomeSectionPuzzle .contenedor .square-info .content .title-section-puzzle {
     display: none;
   }
-  section#BlocHomeSectionPuzzle .container .square-info .content .title-section-puzzle-movil {
+  section#BlocHomeSectionPuzzle .contenedor .square-info .content .title-section-puzzle-movil {
     display: block;
     max-width: 294px;
     font-size: 33.798px;
     margin: 0 0 16px;
   }
-  section#BlocHomeSectionPuzzle .container .square-info .content .paragraph {
+  section#BlocHomeSectionPuzzle .contenedor .square-info .content .paragraph {
     font-size: 12px;
     margin: 0;
   }
-  section#BlocHomeSectionPuzzle .container .square-info .content .box-button {
+  section#BlocHomeSectionPuzzle .contenedor .square-info .content .box-button {
     margin-top: 30px;
     text-align: start;
   }

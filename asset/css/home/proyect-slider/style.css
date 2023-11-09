@@ -2,15 +2,10 @@ section#BlocHomeSliderProduct {
   padding-top: 48px;
   padding-bottom: 37px;
 }
-section#BlocHomeSliderProduct .container {
-  max-width: 1600px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
+section#BlocHomeSliderProduct .contenedor {
   padding: 0;
 }
-section#BlocHomeSliderProduct .container .title-section {
+section#BlocHomeSliderProduct .contenedor .title-section {
   color: var(--Negro, #000);
   text-align: center;
   font-family: "Tabular-Bold";
@@ -19,37 +14,37 @@ section#BlocHomeSliderProduct .container .title-section {
   font-weight: 700;
   line-height: 100%;
   /* 100% */
-  margin: 0;
+  margin: 0 0 35px;
 }
-section#BlocHomeSliderProduct .container #mySwiper_proyect {
+section#BlocHomeSliderProduct .contenedor #mySwiper_proyect {
   width: 100%;
   height: 330px;
 }
-section#BlocHomeSliderProduct .container #mySwiper_proyect .swiper-wrapper {
+section#BlocHomeSliderProduct .contenedor #mySwiper_proyect .swiper-wrapper {
   display: flex;
   align-items: center;
 }
-section#BlocHomeSliderProduct .container #mySwiper_proyect .swiper-wrapper .swiper-slide {
-  width: 170px;
+section#BlocHomeSliderProduct .contenedor #mySwiper_proyect .swiper-wrapper .swiper-slide {
+  width: 170.329px;
   height: 253px;
   overflow: hidden;
   position: relative;
   border-radius: 4.683px;
   transition: 0.8s;
+  aspect-ratio: 0.673;
 }
-section#BlocHomeSliderProduct .container #mySwiper_proyect .swiper-wrapper .swiper-slide .box-img {
-  aspect-ratio: 0.67;
+section#BlocHomeSliderProduct .contenedor #mySwiper_proyect .swiper-wrapper .swiper-slide .box-img {
   width: 100%;
   height: 100%;
   position: relative;
 }
-section#BlocHomeSliderProduct .container #mySwiper_proyect .swiper-wrapper .swiper-slide .box-img > img {
+section#BlocHomeSliderProduct .contenedor #mySwiper_proyect .swiper-wrapper .swiper-slide .box-img > img {
+  filter: drop-shadow(0px 2.34129691px 14.63310528px rgba(0, 0, 0, 0.16));
   height: 100%;
   object-fit: cover;
-  border-radius: 4.683px;
   object-position: center;
 }
-section#BlocHomeSliderProduct .container #mySwiper_proyect .swiper-wrapper .swiper-slide .box-img::after {
+section#BlocHomeSliderProduct .contenedor #mySwiper_proyect .swiper-wrapper .swiper-slide .box-img::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -60,26 +55,26 @@ section#BlocHomeSliderProduct .container #mySwiper_proyect .swiper-wrapper .swip
   right: 0;
   background: linear-gradient(0deg, #000000 30%, #fff 190%);
   opacity: 0.1;
-  filter: drop-shadow(0px 4px 25px rgba(0, 0, 0, 0.16));
 }
-section#BlocHomeSliderProduct .container #mySwiper_proyect .swiper-wrapper .swiper-slide .arrow {
+section#BlocHomeSliderProduct .contenedor #mySwiper_proyect .swiper-wrapper .swiper-slide .arrow {
   position: absolute;
   bottom: 0;
   left: 22px;
 }
-section#BlocHomeSliderProduct .container #mySwiper_proyect .swiper-wrapper .swiper-slide .arrow .hover-arrow {
+section#BlocHomeSliderProduct .contenedor #mySwiper_proyect .swiper-wrapper .swiper-slide .arrow .hover-arrow {
+  transition: 0.8s ease;
   position: absolute;
   bottom: 0;
-  width: 0;
   opacity: 0;
-  transition: 0.22s ease all;
+  transform: scaleX(0);
+  transform-origin: left;
   left: -5px;
-  visibility: hidden;
 }
-section#BlocHomeSliderProduct .container #mySwiper_proyect .swiper-wrapper .swiper-slide .arrow .arrow-opacity {
-  transition: 0.22s ease all;
+section#BlocHomeSliderProduct .contenedor #mySwiper_proyect .swiper-wrapper .swiper-slide .arrow .arrow-opacity {
+  transition: 0.1s;
+  opacity: 1;
 }
-section#BlocHomeSliderProduct .container #mySwiper_proyect .swiper-wrapper .swiper-slide .text-info {
+section#BlocHomeSliderProduct .contenedor #mySwiper_proyect .swiper-wrapper .swiper-slide .text-info {
   position: absolute;
   bottom: 27px;
   left: 22px;
@@ -94,34 +89,34 @@ section#BlocHomeSliderProduct .container #mySwiper_proyect .swiper-wrapper .swip
   z-index: 3;
   margin: 0;
 }
-section#BlocHomeSliderProduct .container #mySwiper_proyect .swiper-wrapper .swiper-slide:hover {
+section#BlocHomeSliderProduct .contenedor #mySwiper_proyect .swiper-wrapper .swiper-slide:hover {
   transform: scale(1.1);
   overflow: visible;
 }
-section#BlocHomeSliderProduct .container #mySwiper_proyect .swiper-wrapper .swiper-slide:hover .arrow .arrow-opacity {
+section#BlocHomeSliderProduct .contenedor #mySwiper_proyect .swiper-wrapper .swiper-slide:hover .arrow .arrow-opacity {
   opacity: 0;
 }
-section#BlocHomeSliderProduct .container #mySwiper_proyect .swiper-wrapper .swiper-slide:hover .arrow .hover-arrow {
-  transition: 0.22s ease all;
-  width: fit-content;
+section#BlocHomeSliderProduct .contenedor #mySwiper_proyect .swiper-wrapper .swiper-slide:hover .arrow .hover-arrow {
+  transform: scaleX(1);
   opacity: 1;
+  width: fit-content;
   left: 0;
-  visibility: visible;
 }
-section#BlocHomeSliderProduct .container #mySwiper_proyect .swiper-wrapper .swiper-slide:nth-child(1),
-section#BlocHomeSliderProduct .container #mySwiper_proyect .swiper-wrapper .swiper-slide:nth-child(3),
-section#BlocHomeSliderProduct .container #mySwiper_proyect .swiper-wrapper .swiper-slide:nth-child(5) {
+section#BlocHomeSliderProduct .contenedor #mySwiper_proyect .swiper-wrapper .swiper-slide:nth-child(1),
+section#BlocHomeSliderProduct .contenedor #mySwiper_proyect .swiper-wrapper .swiper-slide:nth-child(3),
+section#BlocHomeSliderProduct .contenedor #mySwiper_proyect .swiper-wrapper .swiper-slide:nth-child(5) {
   margin-top: 40px;
 }
-section#BlocHomeSliderProduct .container #mySwiper_proyect .swiper-wrapper .swiper-slide:nth-child(2),
-section#BlocHomeSliderProduct .container #mySwiper_proyect .swiper-wrapper .swiper-slide:nth-child(4),
-section#BlocHomeSliderProduct .container #mySwiper_proyect .swiper-wrapper .swiper-slide:nth-child(6) {
+section#BlocHomeSliderProduct .contenedor #mySwiper_proyect .swiper-wrapper .swiper-slide:nth-child(2),
+section#BlocHomeSliderProduct .contenedor #mySwiper_proyect .swiper-wrapper .swiper-slide:nth-child(4),
+section#BlocHomeSliderProduct .contenedor #mySwiper_proyect .swiper-wrapper .swiper-slide:nth-child(6) {
   margin-bottom: 40px;
 }
-section#BlocHomeSliderProduct .container .box-button {
+section#BlocHomeSliderProduct .contenedor .box-button {
+  margin-top: 75.24px;
   text-align: center;
 }
-section#BlocHomeSliderProduct .container .box-button .btn-red {
+section#BlocHomeSliderProduct .contenedor .box-button .btn-red {
   padding: 8px 46px 9px 41px;
   border-radius: 15.5px;
   background-color: #f5333f;
@@ -140,43 +135,40 @@ section#BlocHomeSliderProduct .container .box-button .btn-red {
     padding-top: 59px;
     padding-bottom: 85px;
   }
-  section#BlocHomeSliderProduct .container {
-    gap: 90px;
-  }
-  section#BlocHomeSliderProduct .container .title-section {
+  section#BlocHomeSliderProduct .contenedor .title-section {
     font-size: 56px;
   }
-  section#BlocHomeSliderProduct .container #mySwiper_proyect {
+  section#BlocHomeSliderProduct .contenedor #mySwiper_proyect {
     width: 100%;
     height: 586px;
   }
-  section#BlocHomeSliderProduct .container #mySwiper_proyect .swiper-wrapper {
+  section#BlocHomeSliderProduct .contenedor #mySwiper_proyect .swiper-wrapper {
     display: flex;
     align-items: center;
   }
-  section#BlocHomeSliderProduct .container #mySwiper_proyect .swiper-wrapper .swiper-slide {
-    width: 290px;
+  section#BlocHomeSliderProduct .contenedor #mySwiper_proyect .swiper-wrapper .swiper-slide {
+    width: 291px;
     height: 432px;
   }
-  section#BlocHomeSliderProduct .container #mySwiper_proyect .swiper-wrapper .swiper-slide .arrow {
+  section#BlocHomeSliderProduct .contenedor #mySwiper_proyect .swiper-wrapper .swiper-slide .arrow {
     left: 33px;
   }
-  section#BlocHomeSliderProduct .container #mySwiper_proyect .swiper-wrapper .swiper-slide .text-info {
+  section#BlocHomeSliderProduct .contenedor #mySwiper_proyect .swiper-wrapper .swiper-slide .text-info {
     max-width: 217px;
     bottom: 47px;
     left: 36px;
   }
-  section#BlocHomeSliderProduct .container #mySwiper_proyect .swiper-wrapper .swiper-slide:nth-child(1),
-  section#BlocHomeSliderProduct .container #mySwiper_proyect .swiper-wrapper .swiper-slide:nth-child(3),
-  section#BlocHomeSliderProduct .container #mySwiper_proyect .swiper-wrapper .swiper-slide:nth-child(5) {
+  section#BlocHomeSliderProduct .contenedor #mySwiper_proyect .swiper-wrapper .swiper-slide:nth-child(1),
+  section#BlocHomeSliderProduct .contenedor #mySwiper_proyect .swiper-wrapper .swiper-slide:nth-child(3),
+  section#BlocHomeSliderProduct .contenedor #mySwiper_proyect .swiper-wrapper .swiper-slide:nth-child(5) {
     margin-top: 79px;
   }
-  section#BlocHomeSliderProduct .container #mySwiper_proyect .swiper-wrapper .swiper-slide:nth-child(2),
-  section#BlocHomeSliderProduct .container #mySwiper_proyect .swiper-wrapper .swiper-slide:nth-child(4),
-  section#BlocHomeSliderProduct .container #mySwiper_proyect .swiper-wrapper .swiper-slide:nth-child(6) {
+  section#BlocHomeSliderProduct .contenedor #mySwiper_proyect .swiper-wrapper .swiper-slide:nth-child(2),
+  section#BlocHomeSliderProduct .contenedor #mySwiper_proyect .swiper-wrapper .swiper-slide:nth-child(4),
+  section#BlocHomeSliderProduct .contenedor #mySwiper_proyect .swiper-wrapper .swiper-slide:nth-child(6) {
     margin-bottom: 79px;
   }
-  section#BlocHomeSliderProduct .container .box-button {
-    margin-top: -15px;
+  section#BlocHomeSliderProduct .contenedor .box-button {
+    margin-top: 91px;
   }
 }
